@@ -1,0 +1,88 @@
+
+\documentclass[]{article}
+
+%Packages
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+%Fórmulas
+\usepackage{amsmath, amsthm, amssymb}
+%Imágenes
+\usepackage{graphicx}
+
+%Keywords en español
+\newenvironment{keywords}
+{\par\noindent\small\textbf{\keywordsname:}}
+{\par}
+\addto\captionsspanish{\def\keywordsname{Palabras Claves}}
+
+
+
+
+
+
+\begin{document}
+\selectlanguage{spanish}
+
+\title{Patogénesis de \textit{Staphylococcus}}
+
+\author{Alicia Isabel Pérez Lorente}
+
+
+
+\maketitle              
+
+
+\begin{abstract} https://github.com/aliciapl/proyecto\_final \\
+	En este trabajo se presenta ..
+
+\begin{keywords}
+	Palabras
+\end{keywords}
+
+
+\end{abstract}
+
+
+\section{Introducción}
+
+\section{Estado del arte}
+En el trabajo de Lina et al. \cite{Lina1999} y en el trabajo de Hiramatsu et al. \cite{Hiramatsu1997}...
+\section{Imágenes y tablas / Evaluación}
+
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.8\textwidth]{images/prueba.png}
+	\caption{ Imagen de prueba. } \label{fig1}
+\end{figure}
+
+\begin{table}[!h]
+	\centering
+	\caption{Tabla de prueba}
+	\label{tab1}
+	
+		\begin{tabular}{c|c|c|}
+			\cline{2-3}
+			
+			& \textbf{Evaluación 1} & \textbf{Evaluación 2} \\ \hline
+			
+			\multicolumn{1}{|c|}{\textbf{Cepa 1}} &   uno                     &          dos             \\ \hline
+			\multicolumn{1}{|c|}{\textbf{Cepa 2}} &   tres                    &          cuatro             \\ \hline
+			\multicolumn{1}{|c|}{\textbf{Cepa 3}} &      cinco                 &          seis             \\ \hline
+			\multicolumn{1}{|c|}{\textbf{Cepa 4}} &         siete              &      ocho                 \\ \hline
+		\end{tabular}%
+	
+\end{table}
+
+
+\section{Fórmulas / Evaluación}
+
+$m=\frac{y_2-y_1}{x_2-x_1}$
+
+
+\bibliographystyle{unsrt}
+\bibliography{biblio}
+
+
+
+\end{document}
